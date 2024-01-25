@@ -14,10 +14,4 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_evert.mk
-
-COMMON_LUNCH_CHOICES := \
-    lineage_evert-eng \
-    lineage_evert-user \
-    lineage_evert-userdebug
+PRODUCT_MAKEFILES := $(wildcard device/motorola/targets/devices/evert/*.mk)
