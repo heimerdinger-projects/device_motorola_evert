@@ -25,9 +25,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 # Device
 $(call inherit-product, device/motorola/evert/device.mk)
 
-# Recovery
-TARGET_RECOVERY_FSTAB := device/motorola/sdm660-common/rootdir/etc/fstab.qcom
-
 # Device identifiers
 PRODUCT_DEVICE := evert
 PRODUCT_NAME := lineage_evert
