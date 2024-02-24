@@ -28,7 +28,7 @@ $(call inherit-product, device/motorola/evert/device.mk)
 # Device identifiers
 PRODUCT_DEVICE := evert
 PRODUCT_NAME := lineage_evert
-PRODUCT_BRAND := motorola
+PRODUCT_BRAND := Motorola
 PRODUCT_MODEL := Moto G6 Plus
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_RELEASE_NAME := evert
