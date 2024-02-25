@@ -35,7 +35,7 @@ TARGET_OTA_ASSERT_DEVICE := evert
 TARGET_SCREEN_DENSITY := 420
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineageos_evert_defconfig
+TARGET_KERNEL_CONFIG := evert_defconfig
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/touch.xml
